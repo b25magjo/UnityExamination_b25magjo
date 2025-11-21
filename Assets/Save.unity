@@ -322,6 +322,7 @@ GameObject:
   - component: {fileID: 912980768}
   - component: {fileID: 912980770}
   - component: {fileID: 912980771}
+  - component: {fileID: 912980772}
   m_Layer: 0
   m_Name: Player_Sprite
   m_TagString: Untagged
@@ -644,6 +645,20 @@ MonoBehaviour:
   m_DefaultActionMap: Player
   m_SplitScreenIndex: -1
   m_Camera: {fileID: 0}
+--- !u!114 &912980772
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 912980763}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6340267664e7619498b785a0d512a539, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  magnusPlayerAction: {fileID: -944628639613478452, guid: 72f9e5f9aa931b2488713ebe40617b11, type: 3}
+  magnusAnimator: {fileID: 912980770}
 --- !u!1 &1493203874
 GameObject:
   m_ObjectHideFlags: 0
@@ -690,8 +705,8 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 0.46
-  m_LinearDamping: 0
+  m_Mass: 32.16
+  m_LinearDamping: 1.93
   m_AngularDamping: 0.05
   m_GravityScale: 1
   m_Material: {fileID: 0}
@@ -880,8 +895,11 @@ EdgeCollider2D:
   - {x: -10.38, y: -1.9200001}
   - {x: 2.0393467, y: -1.9200001}
   - {x: 5.8483534, y: 1.9146576}
-  - {x: 7.7592697, y: 1.9146571}
-  - {x: 11.6649885, y: 1.9146571}
+  - {x: 13.5330105, y: 1.9802907}
+  - {x: 13.525631, y: -0.5547169}
+  - {x: 17.356445, y: -0.59826607}
+  - {x: 17.376297, y: 1.9004774}
+  - {x: 21.232075, y: 1.930196}
   m_AdjacentStartPoint: {x: 0, y: 0}
   m_AdjacentEndPoint: {x: 0, y: 0}
   m_UseAdjacentStartPoint: 0
